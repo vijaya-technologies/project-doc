@@ -12,7 +12,7 @@ const config = {
   baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
-  favicon: 'img/favicon.ico',
+  favicon: 'img/vijaya.png',
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
@@ -60,11 +60,11 @@ const config = {
         title: 'Vijaya',
         logo: {
           alt: 'My Site Logo',
-          src: 'img/logo.svg',
+          src: 'img/vijaya.png',
         },
         items: [
           {to: '/blog', label: 'Overview', position: 'right'},
-          {to: '/blog', label: 'About Us', position: 'right'},
+          {to: '/aboutus', label: 'About Us', position: 'right'},
           {to: '/blog', label: 'Success Stories', position: 'right'},
           {
             type: 'doc',
@@ -75,8 +75,8 @@ const config = {
           {to: '/blog', label: 'Guides', position: 'right'},
           
           {
-            href: 'https://github.com/facebook/docusaurus',
-            label: 'Start Hiring',
+            href: 'https://github.com/vijaya-technologies',
+            label: 'Github',
             position: 'right',
           },
         ],
